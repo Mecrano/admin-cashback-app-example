@@ -1,0 +1,12 @@
+type CashbackConfig {
+  percentage: String
+  maxValue: Float
+}
+
+type Query {
+  getConfig: CashbackConfig
+}
+
+type Mutation {
+  saveConfig(percentage: String, maxValue: Float): Boolean
+}

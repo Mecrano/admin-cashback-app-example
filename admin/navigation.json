@@ -1,0 +1,11 @@
+{
+  "section": "orders",
+  "titleId": "admin-cashback.navigation.label",
+  "searchKeyWordsHelpers": "admin-cashback.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "admin-cashback.navigation.insight",
+      "path": "/admin/cashback/settings"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+mutation saveConfig($maxValue: Float, $percentage: String) {
+  saveConfig(maxValue: $maxValue, percentage: $percentage )
+}
