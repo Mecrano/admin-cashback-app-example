@@ -1,4 +1,6 @@
 query {
-  percentage
-  maxValue
+  getConfig {
+    percentage
+    maxValue
+  }
 }
